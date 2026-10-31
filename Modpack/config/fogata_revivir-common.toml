@@ -1,0 +1,14 @@
+#Al morir, el jugador queda eliminado (espectador) hasta que lo revivan en una fogata.
+#Ponelo en false si ya usás otro sistema de vidas (marcador "lives") o un mundo hardcore.
+eliminarAlMorir = true
+#También cuenta como eliminado quien tenga 0 o menos en el marcador "lives" (datapacks de vidas); al revivir queda en 1.
+usarMarcadorLives = true
+#Revivir gasta una Cuchara de Resurrección.
+gastarCuchara = true
+#A cuántos bloques de la fogata hay que estar para abrir el menú.
+#Range: 2.0 ~ 32.0
+distancia = 6.0
+#Hasta cuántos bloques de la fogata se ve el ritual.
+#Range: 32 ~ 512
+rangoVista = 160
+
