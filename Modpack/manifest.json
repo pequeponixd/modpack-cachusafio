@@ -1,0 +1,377 @@
+{
+  "id": "cachusafio",
+  "name": "Cachusafio",
+  "description": "El desafío de las kilas",
+  "version": "1.0.0",
+  "minecraft": "1.20.1",
+  "loader": {
+    "type": "forge",
+    "version": "47.3.0"
+  },
+  "ramGb": 4,
+  "keepLocal": [
+    "options.txt",
+    "servers.dat"
+  ],
+  "managedDirs": [
+    "mods"
+  ],
+  "generatedAt": "2026-10-31T09:48:37.082Z",
+  "files": [
+    {
+      "path": "mods/DEDsafio4RuletaFanProject-0.1.0.jar",
+      "sha1": "8b0252f3d655bdf919aadf83702427a1ba1fad4d",
+      "size": 106311714
+    },
+    {
+      "path": "mods/Jade-1.20.1-Forge-11.13.3.jar",
+      "sha1": "d08e64e66521d69e083c8525f1fc507f1c202384",
+      "size": 553487
+    },
+    {
+      "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c",
+      "size": 76237
+    },
+    {
+      "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "sha1": "81919356f84eab14258db98924b66c3c38e372b1",
+      "size": 47428
+    },
+    {
+      "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+      "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+      "size": 1320675
+    },
+    {
+      "path": "mods/fancymenu_forge_3.9.14_MC_1.20.1.jar",
+      "sha1": "8916c8f2f12a986365148661fb59650950913b32",
+      "size": 26191988
+    },
+    {
+      "path": "mods/fogata_revivir-1.0.0.jar",
+      "sha1": "d5d9d178cf7080b021367137ee31b6bba3c970e4",
+      "size": 195177
+    },
+    {
+      "path": "mods/geckolib-forge-1.20.1-4.8.4.jar",
+      "sha1": "81982cc287f80ffabb2fd36d22cc95e4255c739d",
+      "size": 1038209
+    },
+    {
+      "path": "mods/jei-1.20.1-forge-15.56.0.205.jar",
+      "sha1": "7f64b7f8fde7f001ef054dabe3618a8780ba2650",
+      "size": 1778129
+    },
+    {
+      "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "sha1": "2019d821bed9071daabed43979433a5473ceee49",
+      "size": 625185
+    },
+    {
+      "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
+      "size": 37178
+    },
+    {
+      "path": "mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "sha1": "d27524e85bed0f0af83c03be46f9ca3eb02a1be9",
+      "size": 511601
+    },
+    {
+      "path": "mods/sodiumextras-forge-1.0.7-1.20.1.jar",
+      "sha1": "7603f44bc4750774fbbdc07a3153c391650fcf3d",
+      "size": 438540
+    },
+    {
+      "path": "mods/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "sha1": "7529fbf938787ed13a251cbf40936f8c29ec4b6c",
+      "size": 443978
+    },
+    {
+      "path": "mods/xaeroworldmap-forge-1.20.1-1.47.0.jar",
+      "sha1": "6715c1d3758a3805589d82c41dc581537fe185cd",
+      "size": 1429424
+    },
+    {
+      "path": "config/MouseTweaks.cfg",
+      "sha1": "651b3e4db2d430dc1da3566b2984b264061a6794",
+      "size": 135
+    },
+    {
+      "path": "config/appleskin-client.toml",
+      "sha1": "b8cb646e03d46a0841f0c931b5c722ade9ea9d31",
+      "size": 1337
+    },
+    {
+      "path": "config/embeddium-fingerprint.json",
+      "sha1": "ef5652cbaf85cf66dabc47c8b61b586cc4747d7e",
+      "size": 427
+    },
+    {
+      "path": "config/embeddium-mixins.properties",
+      "sha1": "a729ee50d18cf2204ff9fc33bc21641d55185c88",
+      "size": 269
+    },
+    {
+      "path": "config/embeddium-options.json",
+      "sha1": "c46718c2b687959e2f8f7c46ba64eb2b7413a80d",
+      "size": 852
+    },
+    {
+      "path": "config/fancymenu/assets/8.wav",
+      "sha1": "f72735b47a0692cc680e18a154da3287fb4eb2a3",
+      "size": 101454
+    },
+    {
+      "path": "config/fancymenu/custom_gui_screens.txt",
+      "sha1": "874ca3d1917899b59ed6af06f57b324ac80e55a4",
+      "size": 297
+    },
+    {
+      "path": "config/fancymenu/customizablemenus.txt",
+      "sha1": "e6ffb2badf3910d3152b706e0e369cc6f3a84c42",
+      "size": 76
+    },
+    {
+      "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+      "sha1": "62bd63b4f0a906e91b357fb1aac0b34be829496c",
+      "size": 194
+    },
+    {
+      "path": "config/fancymenu/legacy_checklist.txt",
+      "sha1": "f1569161a6ad24cc61b02dece317ea16e351ff1e",
+      "size": 42
+    },
+    {
+      "path": "config/fancymenu/normalized_scroll_screens.json",
+      "sha1": "8f39232b4e0c6bbbb366de0fd7aaf67284956f8e",
+      "size": 27
+    },
+    {
+      "path": "config/fancymenu/options.txt",
+      "sha1": "99ff1bc372d21695221d2c4f9a45741161777d40",
+      "size": 4451
+    },
+    {
+      "path": "config/fancymenu/ui_themes/cherry_blossom.json",
+      "sha1": "9a453a566f041ddbc39e17918acdac90f6eaed38",
+      "size": 9349
+    },
+    {
+      "path": "config/fancymenu/ui_themes/cozy_campfire.json",
+      "sha1": "e7fbd4e11f3e969d20d7c713e61fa6d6cedd077e",
+      "size": 9347
+    },
+    {
+      "path": "config/fancymenu/ui_themes/dark.json",
+      "sha1": "b8793f498fc95000ab68a7d6b45d8575ad45d558",
+      "size": 9329
+    },
+    {
+      "path": "config/fancymenu/ui_themes/dark_high_contrast.json",
+      "sha1": "9583fa877b286337557aae3429f91d66682091b7",
+      "size": 9359
+    },
+    {
+      "path": "config/fancymenu/ui_themes/light.json",
+      "sha1": "5b9e9bc9d4d683584c919bcdae3b75581ae42f60",
+      "size": 9331
+    },
+    {
+      "path": "config/fancymenu/ui_themes/light_high_contrast.json",
+      "sha1": "8a290f6e1a0bdf2be972878e1c134a0c31f4a069",
+      "size": 9361
+    },
+    {
+      "path": "config/fancymenu/ui_themes/pumpkin_soup.json",
+      "sha1": "39c96a61bdeb936b151e38d0050b70abb78e3620",
+      "size": 9345
+    },
+    {
+      "path": "config/fancymenu/ui_themes/purple_void.json",
+      "sha1": "9e38ca299adfe6ab2ad331c6adb80e26ff823da8",
+      "size": 9343
+    },
+    {
+      "path": "config/fancymenu/ui_themes/spooky_season.json",
+      "sha1": "9fa05d2794bdec26dee5224075c98bd7da9c1a0d",
+      "size": 9347
+    },
+    {
+      "path": "config/fancymenu/user_variables.db",
+      "sha1": "b41f9d7688944b0d96eaa089a5a5bb74af28d258",
+      "size": 23
+    },
+    {
+      "path": "config/fml.toml",
+      "sha1": "07de292abe68900e79f3cc408fcdaaa0e2a34a11",
+      "size": 1119
+    },
+    {
+      "path": "config/fogata_revivir-common.toml",
+      "sha1": "4cce572e23792f8681e94437b96abce2e5ccad8d",
+      "size": 606
+    },
+    {
+      "path": "config/forge-client.toml",
+      "sha1": "95d6c8253b4e0ad9300aa359cf75646c3c3775b6",
+      "size": 1602
+    },
+    {
+      "path": "config/jade/hide-blocks.json",
+      "sha1": "8b3297cc5db5ed84dd48d2905fb21ee3063e0e25",
+      "size": 191
+    },
+    {
+      "path": "config/jade/hide-entities.json",
+      "sha1": "548656ff89ad489730a4b5fdf071a6e98fcd5033",
+      "size": 325
+    },
+    {
+      "path": "config/jade/jade.json",
+      "sha1": "2fb491dec13b7ad7d2f47f6b4a5a177efb31031c",
+      "size": 974
+    },
+    {
+      "path": "config/jade/plugins.json",
+      "sha1": "49a3c9dbd53aea5e028f31818e30b4fdddd66472",
+      "size": 1680
+    },
+    {
+      "path": "config/jade/sort-order.json",
+      "sha1": "985044ecbd1a1c4cf2fc381ffc4f8cb6aa40f16d",
+      "size": 1517
+    },
+    {
+      "path": "config/jei/blacklist.json",
+      "sha1": "7a9c83de081216d9061bffda2d30114104ef6ee3",
+      "size": 19
+    },
+    {
+      "path": "config/jei/ingredient-list-mod-sort-order.ini",
+      "sha1": "c9591d3a080bd1169bc94bffd16ca6d4e3ccec74",
+      "size": 68
+    },
+    {
+      "path": "config/jei/ingredient-list-type-sort-order.ini",
+      "sha1": "ee9a73e1f8e96e8959353e4648963538548af38d",
+      "size": 72
+    },
+    {
+      "path": "config/jei/jei-client.ini",
+      "sha1": "c93200429f4db7b8392a7d6a3680c95d0c545b34",
+      "size": 12613
+    },
+    {
+      "path": "config/jei/jei-colors.ini",
+      "sha1": "3acac72b07b43c2d60220fb454a50fca76cebe2c",
+      "size": 1353
+    },
+    {
+      "path": "config/jei/jei-debug.ini",
+      "sha1": "65f68f46aee96c7647df872cb03dede121ccdb30",
+      "size": 907
+    },
+    {
+      "path": "config/jei/jei-mod-id-format.ini",
+      "sha1": "1fce6f1486a1514d04bfd84632449ca35ccde225",
+      "size": 477
+    },
+    {
+      "path": "config/jei/recipe-category-sort-order.ini",
+      "sha1": "e4fdc54d146ff965d348c33cf6b176d10f3c2843",
+      "size": 326
+    },
+    {
+      "path": "config/jei/world/local/New World/bookmarks.json",
+      "sha1": "151425a930296c6e349e853cedf445f378d32aec",
+      "size": 97
+    },
+    {
+      "path": "config/jei/world/local/New World/lookupHistory.ini",
+      "sha1": "37fb59d30684085a0fa6e8919f4478c1a7b312ae",
+      "size": 91
+    },
+    {
+      "path": "config/konkrete/locals/de_de.local",
+      "sha1": "02adaf2602f1ba03a9352db3d10a6fac3a02aea5",
+      "size": 369
+    },
+    {
+      "path": "config/konkrete/locals/en_us.local",
+      "sha1": "42badc338e767559db38a67bd3e8020a92000e56",
+      "size": 426
+    },
+    {
+      "path": "config/konkrete/locals/pl_pl.local",
+      "sha1": "adf2ded54b4952ca83af26a1217e2c5db8ac1429",
+      "size": 313
+    },
+    {
+      "path": "config/konkrete/locals/pt_br.local",
+      "sha1": "9c324fb4d33106366e6cbb5400c8c34f11539d34",
+      "size": 322
+    },
+    {
+      "path": "config/ruleta_cliente.json",
+      "sha1": "dbc30d066bb32df636889dafecacd05906d2d75e",
+      "size": 102
+    },
+    {
+      "path": "config/sodiumdynamiclights-client.toml",
+      "sha1": "5749703db1beef6e8f190a5b7667cc64d06e6be2",
+      "size": 639
+    },
+    {
+      "path": "config/sodiumextras-client.toml",
+      "sha1": "0bbcb4745d002e1eb7cbd3b407dd4651f69c5b12",
+      "size": 4830
+    },
+    {
+      "path": "config/xaero/lib/client.cfg",
+      "sha1": "45cccfb3eb8a7a784bd4c29539e5558445f90bcf",
+      "size": 26
+    },
+    {
+      "path": "config/xaero/lib/common.cfg",
+      "sha1": "8ae8d6ea0330bec2c0db28b109a12443708f1e7b",
+      "size": 236
+    },
+    {
+      "path": "config/xaero/lib/profiles/default.cfg",
+      "sha1": "253bac0f5181c8db8e488832c46a8d40018650cf",
+      "size": 121
+    },
+    {
+      "path": "config/xaero/lib/server_profiles/default.cfg",
+      "sha1": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
+      "size": 75
+    },
+    {
+      "path": "config/xaero/world-map/client.cfg",
+      "sha1": "27b70648a1bccd0561ae94c0a1a978f283893dea",
+      "size": 521
+    },
+    {
+      "path": "config/xaero/world-map/common.cfg",
+      "sha1": "c3c64f24c8d33940264147473e4a1c8ba5c219ff",
+      "size": 141
+    },
+    {
+      "path": "config/xaero/world-map/profiles/default.cfg",
+      "sha1": "2f1680b1a14bf8cc756c5911c9b9f90e119a365e",
+      "size": 1619
+    },
+    {
+      "path": "config/xaero/world-map/server_profiles/default.cfg",
+      "sha1": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
+      "size": 75
+    },
+    {
+      "path": "config/xaeropatreon.txt",
+      "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "size": 0
+    }
+  ]
+}
