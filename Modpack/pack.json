@@ -7,4 +7,7 @@
      "loader": "forge",
      "loaderVersion": "47.3.0",
      "ramGb": 4
+      "externalUrls": {
+  "mods/DEDsafio4RuletaFanProject-0.1.0.jar": "https://github.com/pequeponixd/modpack-cachusafio/releases/download/mods-grandes/DEDsafio4RuletaFanProject-0.1.0.jar"
+}
    }
