@@ -1,0 +1,10 @@
+   {
+     "id": "cachusafio",
+     "name": "Cachusafio",
+     "description": "El desafío de las kilas",
+     "version": "1.0.0",
+     "minecraft": "1.20.1",
+     "loader": "forge",
+     "loaderVersion": "47.3.0",
+     "ramGb": 4
+   }
