@@ -8,6 +8,9 @@
     "type": "forge",
     "version": "47.4.15"
   },
+  "icon": "icon.png",
+  "background": "background.png",
+  "logo": "logo.png",
   "ramGb": 4,
   "keepLocal": [
     "options.txt",
@@ -16,7 +19,7 @@
   "managedDirs": [
     "mods"
   ],
-  "generatedAt": "2026-10-31T10:05:17.668Z",
+  "generatedAt": "2026-11-01T18:06:19.689Z",
   "files": [
     {
       "path": "mods/DEDsafio4RuletaFanProject-0.1.0.jar",
@@ -50,6 +53,11 @@
       "size": 26191988
     },
     {
+      "path": "mods/ferritecore-6.0.1-forge.jar",
+      "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+      "size": 123034
+    },
+    {
       "path": "mods/fogata_revivir-1.0.0.jar",
       "sha1": "d5d9d178cf7080b021367137ee31b6bba3c970e4",
       "size": 195177
@@ -73,6 +81,11 @@
       "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
       "sha1": "e0942d396a70c09038e6c2e5e1da6505178249b8",
       "size": 37178
+    },
+    {
+      "path": "mods/modernfix-forge-5.27.91mc1.20.1.jar",
+      "sha1": "195d53d299a93c418c90b672c2640b4e41623f96",
+      "size": 1012942
     },
     {
       "path": "mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
@@ -373,16 +386,6 @@
       "path": "config/xaeropatreon.txt",
       "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "size": 0
-    },
-    {
-      "path": "mods/modernfix-forge-5.27.91mc1.20.1.jar",
-      "sha1": "195d53d299a93c418c90b672c2640b4e41623f96",
-      "size": 1012942
-    },
-    {
-      "path": "mods/ferritecore-6.0.1-forge.jar",
-      "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
-      "size": 123034
     }
   ]
 }
