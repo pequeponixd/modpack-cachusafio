@@ -373,6 +373,16 @@
       "path": "config/xaeropatreon.txt",
       "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "size": 0
+    },
+    {
+      "path": "mods/modernfix-forge-5.27.91mc1.20.1.jar",
+      "sha1": "195d53d299a93c418c90b672c2640b4e41623f96",
+      "size": 1012942
+    },
+    {
+      "path": "mods/ferritecore-6.0.1-forge.jar",
+      "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+      "size": 123034
     }
   ]
 }
