@@ -2,7 +2,7 @@
   "id": "cachusafio",
   "name": "Cachusafio",
   "description": "El desafío de las kilas",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -11,6 +11,11 @@
   "icon": "icon.png",
   "background": "background.png",
   "logo": "logo.png",
+  "changelog": [
+    "Menú principal nuevo con fondo animado en pixel art",
+    "Intro animada al abrir el juego",
+    "Pantallas de carga y conexión con el estilo de Cachusafio"
+  ],
   "ramGb": 4,
   "keepLocal": [
     "options.txt",
@@ -19,7 +24,7 @@
   "managedDirs": [
     "mods"
   ],
-  "generatedAt": "2026-11-01T18:06:19.689Z",
+  "generatedAt": "2026-11-02T11:09:53.651Z",
   "files": [
     {
       "path": "mods/DEDsafio4RuletaFanProject-0.1.0.jar",
@@ -43,9 +48,19 @@
       "size": 47428
     },
     {
+      "path": "mods/drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar",
+      "sha1": "a33d48809db8a2f1eb3667fe140d7a4104d80dca",
+      "size": 281881
+    },
+    {
       "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
       "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
       "size": 1320675
+    },
+    {
+      "path": "mods/fancy-entity-renderer-forge-1.20.1-0.4.6.jar",
+      "sha1": "7db90d40e02ff55489f1da1d564c007f4dd0955f",
+      "size": 422043
     },
     {
       "path": "mods/fancymenu_forge_3.9.14_MC_1.20.1.jar",
@@ -118,6 +133,11 @@
       "size": 1337
     },
     {
+      "path": "config/drippyloadingscreen/options.txt",
+      "sha1": "070de3f368766f6109933f27dfd87e90bf120d16",
+      "size": 2435
+    },
+    {
       "path": "config/embeddium-fingerprint.json",
       "sha1": "ef5652cbaf85cf66dabc47c8b61b586cc4747d7e",
       "size": 427
@@ -138,14 +158,139 @@
       "size": 101454
     },
     {
+      "path": "config/fancymenu/assets/background.apng",
+      "sha1": "917495879bcf473230d8fe64c48664d1f691f858",
+      "size": 1353248
+    },
+    {
+      "path": "config/fancymenu/assets/background.png",
+      "sha1": "f81fa89bfc07deb746a598805a3c0e3b3dc32a65",
+      "size": 50930
+    },
+    {
+      "path": "config/fancymenu/assets/btn-hover.png",
+      "sha1": "7aebfa3ef15f07f60fb0675271a075c208f20cf0",
+      "size": 1767
+    },
+    {
+      "path": "config/fancymenu/assets/btn-inactive.png",
+      "sha1": "99c8e05f41f3a7fa1603bbab2378b2d896261b35",
+      "size": 1831
+    },
+    {
+      "path": "config/fancymenu/assets/btn-play-hover.png",
+      "sha1": "fa1f3fcbb0b7fe9ab29c6a0e180dcdd91da08d67",
+      "size": 3924
+    },
+    {
+      "path": "config/fancymenu/assets/btn-play.png",
+      "sha1": "0614db0e04ffd8f008855d6ae4fe624a7b474b13",
+      "size": 4240
+    },
+    {
+      "path": "config/fancymenu/assets/btn.png",
+      "sha1": "545393e347c9c93bafc2c8d3dc059472b794b73b",
+      "size": 1833
+    },
+    {
+      "path": "config/fancymenu/assets/click.wav",
+      "sha1": "55582a7c023ddb724014a47dae8080ab0128b8cb",
+      "size": 6218
+    },
+    {
+      "path": "config/fancymenu/assets/glow.png",
+      "sha1": "ca4debc3d9a74ddfef18f6d93ac1189679ea1e4f",
+      "size": 2286
+    },
+    {
+      "path": "config/fancymenu/assets/hover.wav",
+      "sha1": "1824d79dc1092f17e8771fb06aacf56fe7457ce6",
+      "size": 3572
+    },
+    {
+      "path": "config/fancymenu/assets/intro.apng",
+      "sha1": "479fe9732e94458b77f8ff496839458928e62bd5",
+      "size": 1741797
+    },
+    {
+      "path": "config/fancymenu/assets/island.png",
+      "sha1": "d5b4aea08e60112dd3de83d2048354edfcbeed89",
+      "size": 3416
+    },
+    {
+      "path": "config/fancymenu/assets/loading-bar-bg.png",
+      "sha1": "0185aa2591b45e22b2867061aad6059add65cd7c",
+      "size": 1341
+    },
+    {
+      "path": "config/fancymenu/assets/loading-bar.png",
+      "sha1": "88d1d7d94e84f943b789aedd354014ea7178f5b1",
+      "size": 1936
+    },
+    {
+      "path": "config/fancymenu/assets/logo.png",
+      "sha1": "f4db027684ff626f43edb9b5083f30f9a082e481",
+      "size": 3421
+    },
+    {
+      "path": "config/fancymenu/assets/slider-handle-hover.png",
+      "sha1": "8a320b987b22c1744a39f4ed56708a948c802263",
+      "size": 294
+    },
+    {
+      "path": "config/fancymenu/assets/slider-handle.png",
+      "sha1": "63816b5152866ebda0a00f3f50dc0792c5b91b84",
+      "size": 336
+    },
+    {
+      "path": "config/fancymenu/assets/splashes.txt",
+      "sha1": "8a7689fc6f2d59f77ea14feeac96fec0313426f4",
+      "size": 273
+    },
+    {
       "path": "config/fancymenu/custom_gui_screens.txt",
       "sha1": "874ca3d1917899b59ed6af06f57b324ac80e55a4",
       "size": 297
     },
     {
       "path": "config/fancymenu/customizablemenus.txt",
-      "sha1": "e6ffb2badf3910d3152b706e0e369cc6f3a84c42",
-      "size": 76
+      "sha1": "8f6af9e075be42cbe54d5bbd8f7c2483c756d241",
+      "size": 426
+    },
+    {
+      "path": "config/fancymenu/customization/cachusafio_carga.txt",
+      "sha1": "18268bcc6e1d21bc3f19336124c3ec74e8b5dc56",
+      "size": 4287
+    },
+    {
+      "path": "config/fancymenu/customization/cachusafio_connect_screen.txt",
+      "sha1": "4135a875a6e92c739e18b2665f30462dab4f8d6d",
+      "size": 1361
+    },
+    {
+      "path": "config/fancymenu/customization/cachusafio_disconnected_screen.txt",
+      "sha1": "409134f5dd4ee24162de7a48f40c01958d0c171a",
+      "size": 1366
+    },
+    {
+      "path": "config/fancymenu/customization/cachusafio_level_loading_screen.txt",
+      "sha1": "88b85381135d505ad84c2f5f39df85fd6189fbfd",
+      "size": 1367
+    },
+    {
+      "path": "config/fancymenu/customization/cachusafio_menu.txt",
+      "sha1": "fa499ad7724e7bd7a405645bc5e108d8ce0cad07",
+      "size": 22687
+    },
+    {
+      "path": "config/fancymenu/customization/cachusafio_progress_screen.txt",
+      "sha1": "b6575db1d36bb69297878163871b3f620da72ac8",
+      "size": 1362
+    },
+    {
+      "path": "config/fancymenu/customization/cachusafio_receiving_level_screen.txt",
+      "sha1": "74e5a98766bccc40fa965f9648575a9159892d66",
+      "size": 1369
     },
     {
       "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
@@ -164,8 +309,8 @@
     },
     {
       "path": "config/fancymenu/options.txt",
-      "sha1": "99ff1bc372d21695221d2c4f9a45741161777d40",
-      "size": 4451
+      "sha1": "18fca9a35e166a9f4255dac2f01779489e908c7e",
+      "size": 4861
     },
     {
       "path": "config/fancymenu/ui_themes/cherry_blossom.json",

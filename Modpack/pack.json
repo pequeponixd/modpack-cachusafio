@@ -2,12 +2,17 @@
   "id": "cachusafio",
   "name": "Cachusafio",
   "description": "El desafío de las kilas",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "minecraft": "1.20.1",
   "loader": "forge",
   "loaderVersion": "47.4.15",
   "ramGb": 4,
   "externalUrls": {
     "mods/DEDsafio4RuletaFanProject-0.1.0.jar": "https://github.com/pequeponixd/modpack-cachusafio/releases/download/mods-grandes/DEDsafio4RuletaFanProject-0.1.0.jar"
-  }
+  },
+  "changelog": [
+    "Menú principal nuevo con fondo animado en pixel art",
+    "Intro animada al abrir el juego",
+    "Pantallas de carga y conexión con el estilo de Cachusafio"
+  ]
 }
