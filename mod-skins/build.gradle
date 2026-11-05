@@ -1,0 +1,50 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.+'
+}
+
+version = mod_version
+group = 'cl.cachusafio.skins'
+base { archivesName = 'cachusafio-skins' }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            mods { "${mod_id}" { source sourceSets.main } }
+        }
+        client {
+            workingDirectory project.file(project.findProperty('clientDir') ?: 'run-client')
+            // prueba local: ./gradlew runClient -PtestJoin=localhost:25599 [-PtestName=Amigo -PclientDir=run-client2]
+            if (project.hasProperty('testJoin')) args '--username', project.findProperty('testName') ?: 'Pequepon', '--quickPlayMultiplayer', project.property('testJoin')
+        }
+        server { args '--nogui' }
+    }
+}
+
+mixin {
+    add sourceSets.main, "${mod_id}.refmap.json"
+    config "${mod_id}.mixins.json"
+}
+
+repositories {}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    inputs.property 'version', mod_version
+    filesMatching('META-INF/mods.toml') { expand version: mod_version }
+}
+
+tasks.named('jar', Jar).configure {
+    manifest { attributes(['MixinConfigs': "${mod_id}.mixins.json"]) }
+    finalizedBy 'reobfJar'
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

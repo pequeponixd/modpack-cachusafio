@@ -2,7 +2,7 @@
   "id": "cachusafio",
   "name": "Cachusafio",
   "description": "El desafío de las kilas",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -12,9 +12,7 @@
   "background": "background.png",
   "logo": "logo.png",
   "changelog": [
-    "Menú principal nuevo con fondo animado en pixel art",
-    "Intro animada al abrir el juego",
-    "Pantallas de carga y conexión con el estilo de Cachusafio"
+    "Vestidor: la skin y la capa que elijas en el launcher ahora se ven dentro del servidor, también sin cuenta premium"
   ],
   "ramGb": 4,
   "keepLocal": [
@@ -24,7 +22,7 @@
   "managedDirs": [
     "mods"
   ],
-  "generatedAt": "2026-11-02T11:09:53.651Z",
+  "generatedAt": "2026-11-05T04:05:14.739Z",
   "files": [
     {
       "path": "mods/DEDsafio4RuletaFanProject-0.1.0.jar",
@@ -46,6 +44,11 @@
       "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
       "sha1": "81919356f84eab14258db98924b66c3c38e372b1",
       "size": 47428
+    },
+    {
+      "path": "mods/cachusafio-skins-1.0.0.jar",
+      "sha1": "c56145d2208822043856056013d478ef3100f129",
+      "size": 23734
     },
     {
       "path": "mods/drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar",
