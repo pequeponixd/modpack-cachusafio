@@ -2,18 +2,17 @@
   "id": "cachusafio",
   "name": "Cachusafio",
   "description": "El desafío de las kilas",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "minecraft": "1.20.1",
   "loader": "forge",
   "loaderVersion": "47.4.15",
   "ramGb": 4,
+  "server": "cachusafio.playit.plus",
   "externalUrls": {
     "mods/DEDsafio4RuletaFanProject-1.1.0.jar": "https://github.com/pequeponixd/modpack-cachusafio/releases/download/mods-grandes/DEDsafio4RuletaFanProject-1.1.0.jar"
   },
   "changelog": [
-    "Ruleta actualizada a la versión 1.1.0: Búnkeres, Eclipse, Herobrine y más",
-    "Nuevos mobs, espadas y armadura de DEDsafio 4, con más entradas para las ruletas",
-    "Diario de misiones (tecla J), Deditas, correo de Eón, pedestal de entrega y candados",
-    "Se quita Xaero's World Map"
+    "Chat de voz con Simple Voice Chat (tecla V para abrir el menú)",
+    "El botón Jugar en Cachusafio del menú ahora entra directo al servidor"
   ]
 }

@@ -162,12 +162,12 @@ element {
 
 element {
   button_element_executable_block_identifier = 4995015c-a345-4fc4-af70-6c4ca187f85f-1762000000000
-  [executable_action_instance:d2cca886-86c5-4145-a5cb-429720bfae0f-1762000000000][action_type:opengui] = join_multiplayer_screen
+  [executable_action_instance:d2cca886-86c5-4145-a5cb-429720bfae0f-1762000000000][action_type:joinserver] = cachusafio.playit.plus
   [executable_block:4995015c-a345-4fc4-af70-6c4ca187f85f-1762000000000][type:generic] = [executables:d2cca886-86c5-4145-a5cb-429720bfae0f-1762000000000;]
   backgroundnormal = [source:local]/config/fancymenu/assets/btn-play.png
   backgroundhovered = [source:local]/config/fancymenu/assets/btn-play-hover.png
   hoversound = [source:local]/config/fancymenu/assets/hover.wav
-  description = Abre la lista de servidores
+  description = Entra directo a cachusafio.playit.plus
   clicksound = [source:local]/config/fancymenu/assets/click.wav
   restartbackgroundanimations = true
   loopbackgroundanimations = true
