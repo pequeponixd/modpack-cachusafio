@@ -2,7 +2,7 @@
   "id": "cachusafio",
   "name": "Cachusafio",
   "description": "El desafío de las kilas",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -11,11 +11,10 @@
   "icon": "icon.png",
   "background": "background.png",
   "logo": "logo.png",
+  "server": "cachusafio.playit.plus",
   "changelog": [
-    "Ruleta actualizada a la versión 1.1.0: Búnkeres, Eclipse, Herobrine y más",
-    "Nuevos mobs, espadas y armadura de DEDsafio 4, con más entradas para las ruletas",
-    "Diario de misiones (tecla J), Deditas, correo de Eón, pedestal de entrega y candados",
-    "Se quita Xaero's World Map"
+    "Chat de voz con Simple Voice Chat (tecla V para abrir el menú)",
+    "El botón Jugar en Cachusafio del menú ahora entra directo al servidor"
   ],
   "ramGb": 4,
   "keepLocal": [
@@ -25,7 +24,7 @@
   "managedDirs": [
     "mods"
   ],
-  "generatedAt": "2026-11-06T20:28:43.000Z",
+  "generatedAt": "2026-11-06T20:40:13.093Z",
   "files": [
     {
       "path": "mods/DEDsafio4RuletaFanProject-1.1.0.jar",
@@ -52,6 +51,11 @@
       "path": "mods/cachusafio-skins-1.1.0.jar",
       "sha1": "9c80b1f3397fbfbb6704c846514fac9d3f77ceb8",
       "size": 39508
+    },
+    {
+      "path": "mods/dedsafio4-1.0.0.jar",
+      "sha1": "3362079a4f0dcf23908e2b37233208ff96eadfc3",
+      "size": 360438
     },
     {
       "path": "mods/drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar",
@@ -104,6 +108,11 @@
       "size": 37178
     },
     {
+      "path": "mods/misiones4-1.0.0.jar",
+      "sha1": "4180f9adeea1be64735667e24da682ef2f4e488a",
+      "size": 67345
+    },
+    {
       "path": "mods/modernfix-forge-5.27.91mc1.20.1.jar",
       "sha1": "195d53d299a93c418c90b672c2640b4e41623f96",
       "size": 1012942
@@ -122,6 +131,11 @@
       "path": "mods/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
       "sha1": "7529fbf938787ed13a251cbf40936f8c29ec4b6c",
       "size": 443978
+    },
+    {
+      "path": "mods/voicechat-forge-1.20.1-2.6.27.jar",
+      "sha1": "08f976516021a38a95cf121bf9ff439af386e385",
+      "size": 4941878
     },
     {
       "path": "config/MouseTweaks.cfg",
@@ -280,8 +294,8 @@
     },
     {
       "path": "config/fancymenu/customization/cachusafio_menu.txt",
-      "sha1": "fa499ad7724e7bd7a405645bc5e108d8ce0cad07",
-      "size": 22687
+      "sha1": "0be95fcbb0c58938cf8b8f37252b538710b416ef",
+      "size": 22700
     },
     {
       "path": "config/fancymenu/customization/cachusafio_progress_screen.txt",
@@ -487,16 +501,6 @@
       "path": "config/sodiumextras-client.toml",
       "sha1": "0bbcb4745d002e1eb7cbd3b407dd4651f69c5b12",
       "size": 4830
-    },
-    {
-      "path": "mods/dedsafio4-1.0.0.jar",
-      "sha1": "3362079a4f0dcf23908e2b37233208ff96eadfc3",
-      "size": 360438
-    },
-    {
-      "path": "mods/misiones4-1.0.0.jar",
-      "sha1": "4180f9adeea1be64735667e24da682ef2f4e488a",
-      "size": 67345
     }
   ]
 }
