@@ -20,12 +20,18 @@ public final class ServerSkins {
     private static final Logger LOG = LogUtils.getLogger();
     private static final Map<UUID, SkinData> SKINS = new ConcurrentHashMap<>();
     private static final Map<UUID, Long> LAST_UPLOAD = new ConcurrentHashMap<>();
+    /** Skins de jugadores que todavía no prueban su PIN: se reparten recién al verificarse. */
+    private static final Map<UUID, SkinData> HELD = new ConcurrentHashMap<>();
     private static final long MIN_INTERVAL_MS = 3_000;
 
     private ServerSkins() {}
 
     public static void receive(ServerPlayer sender, SkinData data) {
         UUID id = sender.getUUID();
+        if (!PinAuth.isVerified(sender)) {
+            HELD.put(id, data); // nadie ve la skin de alguien que podría estar suplantando a otro
+            return;
+        }
         long now = System.currentTimeMillis();
         Long last = LAST_UPLOAD.get(id);
         if (last != null && now - last < MIN_INTERVAL_MS) return;
@@ -35,6 +41,11 @@ public final class ServerSkins {
         LOG.info("skin de {} recibida ({} bytes, modelo {}, capa {})", sender.getGameProfile().getName(), data.png().length,
                 data.slim() ? "slim" : "classic", data.hasCape() ? data.cape().substring(0, 8) : "-");
         broadcast(new SkinNetwork.Sync(id, data));
+    }
+
+    static void onVerified(ServerPlayer player) {
+        SkinData held = HELD.remove(player.getUUID());
+        if (held != null) receive(player, held);
     }
 
     @SubscribeEvent
@@ -47,6 +58,7 @@ public final class ServerSkins {
     public static void onLogout(PlayerEvent.PlayerLoggedOutEvent event) {
         UUID id = event.getEntity().getUUID();
         LAST_UPLOAD.remove(id);
+        HELD.remove(id);
         if (SKINS.remove(id) != null) broadcast(new SkinNetwork.Sync(id, null));
     }
 
@@ -54,6 +66,7 @@ public final class ServerSkins {
     public static void onStopped(ServerStoppedEvent event) {
         SKINS.clear();
         LAST_UPLOAD.clear();
+        HELD.clear();
     }
 
     private static void broadcast(SkinNetwork.Sync msg) {

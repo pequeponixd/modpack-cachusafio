@@ -12,7 +12,8 @@
   "background": "background.png",
   "logo": "logo.png",
   "changelog": [
-    "Vestidor: la skin y la capa que elijas en el launcher ahora se ven dentro del servidor, también sin cuenta premium"
+    "Vestidor: la skin y la capa que elijas en el launcher ahora se ven dentro del servidor, también sin cuenta premium",
+    "Tu nombre queda protegido con el PIN del launcher: nadie más puede entrar como tú"
   ],
   "ramGb": 4,
   "keepLocal": [
@@ -22,7 +23,7 @@
   "managedDirs": [
     "mods"
   ],
-  "generatedAt": "2026-11-05T04:05:14.739Z",
+  "generatedAt": "2026-11-06T19:14:26.182Z",
   "files": [
     {
       "path": "mods/DEDsafio4RuletaFanProject-0.1.0.jar",
@@ -46,9 +47,9 @@
       "size": 47428
     },
     {
-      "path": "mods/cachusafio-skins-1.0.0.jar",
-      "sha1": "c56145d2208822043856056013d478ef3100f129",
-      "size": 23734
+      "path": "mods/cachusafio-skins-1.1.0.jar",
+      "sha1": "9c80b1f3397fbfbb6704c846514fac9d3f77ceb8",
+      "size": 39508
     },
     {
       "path": "mods/drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar",

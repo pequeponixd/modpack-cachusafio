@@ -2,7 +2,10 @@ package cl.cachusafio.skins;
 
 import cl.cachusafio.skins.client.ClientSkins;
 import cl.cachusafio.skins.net.SkinNetwork;
+import cl.cachusafio.skins.server.PinAuth;
 import cl.cachusafio.skins.server.ServerSkins;
+import net.minecraftforge.fml.ModLoadingContext;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.DistExecutor;
@@ -18,8 +21,10 @@ public class CachusafioSkins {
     public static final String MOD_ID = "cachusafio_skins";
 
     public CachusafioSkins() {
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, SkinsConfig.SPEC);
         SkinNetwork.register();
         MinecraftForge.EVENT_BUS.register(ServerSkins.class);
+        MinecraftForge.EVENT_BUS.register(PinAuth.class);
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> MinecraftForge.EVENT_BUS.register(ClientSkins.Events.class));
     }
 }

@@ -2,6 +2,7 @@ package cl.cachusafio.skins.net;
 
 import cl.cachusafio.skins.CachusafioSkins;
 import cl.cachusafio.skins.client.ClientSkins;
+import cl.cachusafio.skins.server.PinAuth;
 import cl.cachusafio.skins.server.ServerSkins;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
@@ -39,6 +40,8 @@ public final class SkinNetwork {
                 Optional.of(NetworkDirection.PLAY_TO_SERVER));
         CHANNEL.registerMessage(1, Sync.class, Sync::write, Sync::read, Sync::handle,
                 Optional.of(NetworkDirection.PLAY_TO_CLIENT));
+        CHANNEL.registerMessage(2, Pin.class, Pin::write, Pin::read, Pin::handle,
+                Optional.of(NetworkDirection.PLAY_TO_SERVER));
     }
 
     public static void sendTo(ServerPlayer player, Sync msg) {
@@ -75,6 +78,20 @@ public final class SkinNetwork {
         void handle(Supplier<NetworkEvent.Context> ctx) {
             NetworkEvent.Context c = ctx.get();
             c.enqueueWork(() -> DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> ClientSkins.set(player, data)));
+            c.setPacketHandled(true);
+        }
+    }
+
+    /** Cliente → servidor: clave derivada del PIN (64 hex) o "" si el juego no se abrió con el launcher. */
+    public record Pin(String token) {
+        void write(FriendlyByteBuf buf) { buf.writeUtf(token, 64); }
+
+        static Pin read(FriendlyByteBuf buf) { return new Pin(buf.readUtf(64)); }
+
+        void handle(Supplier<NetworkEvent.Context> ctx) {
+            NetworkEvent.Context c = ctx.get();
+            ServerPlayer sender = c.getSender();
+            if (sender != null) c.enqueueWork(() -> PinAuth.receive(sender, token));
             c.setPacketHandled(true);
         }
     }

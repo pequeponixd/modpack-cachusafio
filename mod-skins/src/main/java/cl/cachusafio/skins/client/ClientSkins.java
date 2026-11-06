@@ -190,7 +190,12 @@ public final class ClientSkins {
             UUID self = event.getPlayer().getUUID();
             SkinData mine = readLocal();
             set(self, mine);
-            if (mine != null && SkinNetwork.CHANNEL.isRemotePresent(event.getConnection())) {
+            if (!SkinNetwork.CHANNEL.isRemotePresent(event.getConnection())) return;
+            // primero el PIN: el servidor no reparte la skin de nadie sin verificarlo. El launcher pasa la clave
+            // por una variable de entorno del proceso del juego, así nunca queda escrita en un archivo.
+            String token = System.getenv("CACHUSAFIO_AUTH");
+            SkinNetwork.CHANNEL.sendToServer(new SkinNetwork.Pin(token == null ? "" : token.trim().toLowerCase(java.util.Locale.ROOT)));
+            if (mine != null) {
                 SkinNetwork.CHANNEL.sendToServer(new SkinNetwork.Upload(mine));
             }
         }

@@ -7,7 +7,7 @@ modId="cachusafio_skins"
 version="${version}"
 displayName="Cachusafio Skins"
 authors="Cachusafio"
-description='''Sincroniza la skin y la capa elegidas en el launcher de Cachusafio con todos los jugadores del servidor.'''
+description='''Sincroniza la skin y la capa elegidas en el launcher de Cachusafio con todos los jugadores del servidor, y protege cada nombre con el PIN del launcher.'''
 
 [[dependencies.cachusafio_skins]]
 modId="forge"
