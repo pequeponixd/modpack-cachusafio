@@ -2,7 +2,7 @@
   "id": "cachusafio",
   "name": "Cachusafio",
   "description": "El desafío de las kilas",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
@@ -13,10 +13,8 @@
   "logo": "logo.png",
   "server": "cachusafio.playit.plus",
   "changelog": [
-    "Forge actualizado a 47.4.28",
-    "Dedsafio Items: Fantasmas Rojo, Amarillo y Blanco, Creeper Warden y más (sus mobs de DEDsafio 4 salen con la ruleta amarilla)",
-    "Padlocks&Auras: candados con PIN para tus cofres y auras cosméticas",
-    "Plantilla de Herrería glebanoide para mejorar el equipo de diamante"
+    "Dedsafio Items actualizado: dimensión del Limbo, Revill, Grim Reaper, Komanche, Flashbang y muchos objetos nuevos (gracias a Ouuushi por el permiso)",
+    "El Flashbang de Dedsafio Items sale con la ruleta amarilla; en el Limbo sus mobs salen siempre"
   ],
   "ramGb": 4,
   "keepLocal": [
@@ -26,7 +24,7 @@
   "managedDirs": [
     "mods"
   ],
-  "generatedAt": "2026-11-07T15:19:51.000Z",
+  "generatedAt": "2026-11-07T23:57:27.000Z",
   "files": [
     {
       "path": "mods/DEDsafio4RuletaFanProject-1.1.0.jar",
@@ -55,9 +53,9 @@
       "size": 39508
     },
     {
-      "path": "mods/dedsafio4-1.0.3.jar",
-      "sha1": "f963f162454483fa1899fb85e721e93ef8f795ac",
-      "size": 394484
+      "path": "mods/dedsafio4-1.0.4.jar",
+      "sha1": "b3da4241dff1098b4d226ae7db4e28de59dec284",
+      "size": 394596
     },
     {
       "path": "mods/drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar",
@@ -590,9 +588,9 @@
     },
     {
       "path": "mods/customgear-1.0.0.jar",
-      "sha1": "ce107136de15bd2d38589a0303d93d15469acfc3",
-      "size": 492228,
-      "url": "https://mediafilez.forgecdn.net/files/9485/670/customgear-1.0.0.jar"
+      "sha1": "121d6e346ed75a2232f217ca07bb965d20c1f33c",
+      "size": 884853,
+      "url": "https://mediafilez.forgecdn.net/files/9501/475/customgear-1.0.0.jar"
     },
     {
       "path": "mods/CandadosYAuras-Forge-1.20.1-1.0.2.jar",
