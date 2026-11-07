@@ -2,17 +2,31 @@
   "id": "cachusafio",
   "name": "Cachusafio",
   "description": "El desafío de las kilas",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "minecraft": "1.20.1",
   "loader": "forge",
   "loaderVersion": "47.4.15",
   "ramGb": 4,
   "server": "cachusafio.playit.plus",
   "externalUrls": {
-    "mods/DEDsafio4RuletaFanProject-1.1.0.jar": "https://github.com/pequeponixd/modpack-cachusafio/releases/download/mods-grandes/DEDsafio4RuletaFanProject-1.1.0.jar"
+    "mods/DEDsafio4RuletaFanProject-1.1.0.jar": "https://github.com/pequeponixd/modpack-cachusafio/releases/download/mods-grandes/DEDsafio4RuletaFanProject-1.1.0.jar",
+    "mods/skinlayers3d-forge-1.11.4-mc1.20.1.jar": "https://cdn.modrinth.com/data/zV5r3pPn/versions/6NG8MGVh/skinlayers3d-forge-1.11.4-mc1.20.1.jar",
+    "mods/BetterF3-7.0.2-Forge-1.20.1.jar": "https://cdn.modrinth.com/data/8shC1gFX/versions/xo6HmgWj/BetterF3-7.0.2-Forge-1.20.1.jar",
+    "mods/immersivehotbar-1.3.0-forge-1.20.1.jar": "https://cdn.modrinth.com/data/hsPB5xMD/versions/FwSjK1qT/immersivehotbar-1.3.0-forge-1.20.1.jar",
+    "mods/ImmersiveUI-FORGE-0.3.0.jar": "https://cdn.modrinth.com/data/9wv7LuMc/versions/YbO8SNFq/ImmersiveUI-FORGE-0.3.0.jar",
+    "mods/presence-footsteps-forge-1.0.0.jar": "https://cdn.modrinth.com/data/dLfueQtY/versions/mru6MmJT/Presence%20Footsteps%20%5BFORGE%5D%201.0.0.jar",
+    "mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar": "https://cdn.modrinth.com/data/qyVF9oeo/versions/x0sJ9PeR/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+    "mods/trashslot-forge-1.20.1-15.1.5.jar": "https://cdn.modrinth.com/data/vRYk0bv7/versions/r0K8IYd7/trashslot-forge-1.20.1-15.1.5.jar",
+    "mods/oculus-mc1.20.1-1.8.0.jar": "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar",
+    "mods/justzoom_forge_3.1.0_MC_1.20.1.jar": "https://cdn.modrinth.com/data/iAiqcykM/versions/sWCSWicx/justzoom_forge_3.1.0_MC_1.20.1.jar",
+    "mods/cloth-config-11.1.136-forge.jar": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+    "mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar": "https://cdn.modrinth.com/data/1eAoo2KR/versions/sCWgXDYQ/yet_another_config_lib_v3-3.6.6%2B1.20.1-forge.jar",
+    "mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar": "https://cdn.modrinth.com/data/RH2KUdKJ/versions/HZ7KmyXp/OctoLib-FORGE-0.5.0.1%2B1.20.1.jar",
+    "mods/balm-forge-1.20.1-7.3.44.jar": "https://cdn.modrinth.com/data/MBAkmtvl/versions/dDN38ae7/balm-forge-1.20.1-7.3.44.jar",
+    "mods/architectury-9.2.14-forge.jar": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar"
   },
   "changelog": [
-    "Chat de voz con Simple Voice Chat (tecla V para abrir el menú)",
-    "El botón Jugar en Cachusafio del menú ahora entra directo al servidor"
+    "Mods nuevos: 3D Skin Layers, BetterF3, Immersive Hotbar, Immersive UI, Presence Footsteps, Sound Physics Remastered, TrashSlot y Just Zoom",
+    "Shaders con Oculus (la versión de Iris para Forge): pon tus shaders en la carpeta shaderpacks"
   ]
 }
