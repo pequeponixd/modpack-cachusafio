@@ -2,7 +2,7 @@
   "id": "cachusafio",
   "name": "Cachusafio",
   "description": "El desafío de las kilas",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "minecraft": "1.20.1",
   "loader": "forge",
   "loaderVersion": "47.4.15",
@@ -26,7 +26,7 @@
     "mods/architectury-9.2.14-forge.jar": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar"
   },
   "changelog": [
-    "Mods nuevos: 3D Skin Layers, BetterF3, Immersive Hotbar, Immersive UI, Presence Footsteps, Sound Physics Remastered, TrashSlot y Just Zoom",
-    "Shaders con Oculus (la versión de Iris para Forge): pon tus shaders en la carpeta shaderpacks"
+    "El anuncio de la ruleta ya no muestra la marca [Externo]: solo se ve al elegir en la ruleta",
+    "Armadura glebanoide rediseñada como la de la serie: carne coral con vetas, mangas lilas y punteras de hueso"
   ]
 }
