@@ -2,10 +2,10 @@
   "id": "cachusafio",
   "name": "Cachusafio",
   "description": "El desafío de las kilas",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "minecraft": "1.20.1",
   "loader": "forge",
-  "loaderVersion": "47.4.15",
+  "loaderVersion": "47.4.28",
   "ramGb": 4,
   "server": "cachusafio.playit.plus",
   "externalUrls": {
@@ -23,10 +23,14 @@
     "mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar": "https://cdn.modrinth.com/data/1eAoo2KR/versions/sCWgXDYQ/yet_another_config_lib_v3-3.6.6%2B1.20.1-forge.jar",
     "mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar": "https://cdn.modrinth.com/data/RH2KUdKJ/versions/HZ7KmyXp/OctoLib-FORGE-0.5.0.1%2B1.20.1.jar",
     "mods/balm-forge-1.20.1-7.3.44.jar": "https://cdn.modrinth.com/data/MBAkmtvl/versions/dDN38ae7/balm-forge-1.20.1-7.3.44.jar",
-    "mods/architectury-9.2.14-forge.jar": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar"
+    "mods/architectury-9.2.14-forge.jar": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+    "mods/customgear-1.0.0.jar": "https://mediafilez.forgecdn.net/files/9485/670/customgear-1.0.0.jar",
+    "mods/CandadosYAuras-Forge-1.20.1-1.0.2.jar": "https://mediafilez.forgecdn.net/files/9358/524/CandadosYAuras-Forge-1.20.1-1.0.2.jar"
   },
   "changelog": [
-    "El anuncio de la ruleta ya no muestra la marca [Externo]: solo se ve al elegir en la ruleta",
-    "Armadura glebanoide rediseñada como la de la serie: carne coral con vetas, mangas lilas y punteras de hueso"
+    "Forge actualizado a 47.4.28",
+    "Dedsafio Items: Fantasmas Rojo, Amarillo y Blanco, Creeper Warden y más (sus mobs de DEDsafio 4 salen con la ruleta amarilla)",
+    "Padlocks&Auras: candados con PIN para tus cofres y auras cosméticas",
+    "Plantilla de Herrería glebanoide para mejorar el equipo de diamante"
   ]
 }
