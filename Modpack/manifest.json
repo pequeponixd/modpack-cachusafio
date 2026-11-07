@@ -2,19 +2,21 @@
   "id": "cachusafio",
   "name": "Cachusafio",
   "description": "El desafío de las kilas",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "minecraft": "1.20.1",
   "loader": {
     "type": "forge",
-    "version": "47.4.15"
+    "version": "47.4.28"
   },
   "icon": "icon.png",
   "background": "background.png",
   "logo": "logo.png",
   "server": "cachusafio.playit.plus",
   "changelog": [
-    "El anuncio de la ruleta ya no muestra la marca [Externo]: solo se ve al elegir en la ruleta",
-    "Armadura glebanoide rediseñada como la de la serie: carne coral con vetas, mangas lilas y punteras de hueso"
+    "Forge actualizado a 47.4.28",
+    "Dedsafio Items: Fantasmas Rojo, Amarillo y Blanco, Creeper Warden y más (sus mobs de DEDsafio 4 salen con la ruleta amarilla)",
+    "Padlocks&Auras: candados con PIN para tus cofres y auras cosméticas",
+    "Plantilla de Herrería glebanoide para mejorar el equipo de diamante"
   ],
   "ramGb": 4,
   "keepLocal": [
@@ -24,7 +26,7 @@
   "managedDirs": [
     "mods"
   ],
-  "generatedAt": "2026-11-07T13:31:21.000Z",
+  "generatedAt": "2026-11-07T15:19:51.000Z",
   "files": [
     {
       "path": "mods/DEDsafio4RuletaFanProject-1.1.0.jar",
@@ -53,9 +55,9 @@
       "size": 39508
     },
     {
-      "path": "mods/dedsafio4-1.0.1.jar",
-      "sha1": "70bfe5359f53f6138e491beb241fae81c5e5e600",
-      "size": 359134
+      "path": "mods/dedsafio4-1.0.3.jar",
+      "sha1": "f963f162454483fa1899fb85e721e93ef8f795ac",
+      "size": 394484
     },
     {
       "path": "mods/drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar",
@@ -108,9 +110,9 @@
       "size": 37178
     },
     {
-      "path": "mods/misiones4-1.0.0.jar",
-      "sha1": "4180f9adeea1be64735667e24da682ef2f4e488a",
-      "size": 67345
+      "path": "mods/misiones4-1.0.1.jar",
+      "sha1": "ba26cd0819c97baf8320c266855e11854e3e4179",
+      "size": 67401
     },
     {
       "path": "mods/modernfix-forge-5.27.91mc1.20.1.jar",
@@ -585,6 +587,18 @@
       "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
       "size": 580602,
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar"
+    },
+    {
+      "path": "mods/customgear-1.0.0.jar",
+      "sha1": "ce107136de15bd2d38589a0303d93d15469acfc3",
+      "size": 492228,
+      "url": "https://mediafilez.forgecdn.net/files/9485/670/customgear-1.0.0.jar"
+    },
+    {
+      "path": "mods/CandadosYAuras-Forge-1.20.1-1.0.2.jar",
+      "sha1": "39709b830d6f0832bee6957efde56be9737c19f0",
+      "size": 3807201,
+      "url": "https://mediafilez.forgecdn.net/files/9358/524/CandadosYAuras-Forge-1.20.1-1.0.2.jar"
     }
   ]
 }
