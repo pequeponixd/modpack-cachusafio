@@ -13,7 +13,8 @@
   "logo": "logo.png",
   "server": "cachusafio.playit.plus",
   "changelog": [
-    "El anuncio de la ruleta ya no muestra la marca [Externo]: solo se ve al elegir en la ruleta"
+    "El anuncio de la ruleta ya no muestra la marca [Externo]: solo se ve al elegir en la ruleta",
+    "Armadura glebanoide rediseñada como la de la serie: carne coral con vetas, mangas lilas y punteras de hueso"
   ],
   "ramGb": 4,
   "keepLocal": [
@@ -53,8 +54,8 @@
     },
     {
       "path": "mods/dedsafio4-1.0.1.jar",
-      "sha1": "95f94d1d27fc91a5431d991885dc965b649ff20a",
-      "size": 360877
+      "sha1": "70bfe5359f53f6138e491beb241fae81c5e5e600",
+      "size": 359134
     },
     {
       "path": "mods/drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar",

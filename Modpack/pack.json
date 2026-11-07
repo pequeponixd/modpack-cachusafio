@@ -26,6 +26,7 @@
     "mods/architectury-9.2.14-forge.jar": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar"
   },
   "changelog": [
-    "El anuncio de la ruleta ya no muestra la marca [Externo]: solo se ve al elegir en la ruleta"
+    "El anuncio de la ruleta ya no muestra la marca [Externo]: solo se ve al elegir en la ruleta",
+    "Armadura glebanoide rediseñada como la de la serie: carne coral con vetas, mangas lilas y punteras de hueso"
   ]
 }
